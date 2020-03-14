@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="Reports.ExtentReport4Example">
+        <methods>
+          <include name="getResult"/>
+          <include name="verifyLogo"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Reports.ExtentReport4Example -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
